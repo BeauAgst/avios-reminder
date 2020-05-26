@@ -27,7 +27,7 @@ export default async function getRetailerList(): Promise<Retailer[]> {
   try {
     const data = storage('local').get('retailer_list') as { retailers?: Retailer[] }
 
-    if (!data?.retailers) {
+    if (!data?.retailers || !data?.retailers.length) {
       const retailers = await fetchRetailers()
       storage('local').set('retailer_list', { retailers })
       return retailers;
