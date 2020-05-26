@@ -2,7 +2,7 @@
 
 > A Chrome Extension to notify you when you're on a site that can reward you with Avios for your purchase
 
-![Example Screenshot](/public/promo-large.jpg)
+![Example Screenshot](/public/promo-small.jpg)
 
 [Chrome Web Store URL](https://chrome.google.com/webstore/detail/lkcogehgaekpbdgbhalkdijfdbgliecl)
 
