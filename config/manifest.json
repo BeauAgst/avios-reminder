@@ -1,0 +1,36 @@
+{
+  "manifest_version": 2,
+
+  "name": "Avios Reminder",
+  "description": "Be notified on sites that could earn you Avios",
+  "version": "1.0",
+
+  "icons": {
+    "18": "icons/18.png",
+    "32": "icons/32.png",
+    "48": "icons/48.png",
+    "128": "icons/128.png"
+  },
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content_script.js"
+      ]
+    }
+  ],
+
+  "permissions": [
+    "tabs",
+    "http://*/",
+    "https://*/"
+  ]
+}
