@@ -1,74 +1,79 @@
-.baar-container {
-  position: fixed;
-  bottom: 16px;
-  right: 16px;
-  z-index: 999999999;
-  width: 260px;
-  padding: 20px;
-  border-radius: 4px;
-  color: #333;
-  background-color: #fff;
-  box-shadow:  0 0 0 1px rgba(0,0,0, .08), 2px 4px 8px -2px rgba(0,0,0, .2);
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-  'Helvetica Neue', Arial, sans-serif;
-  font-size: 14px;
+div.baar-container {
+  position: fixed !important;
+  bottom: 16px !important;
+  right: 16px !important;
+  z-index: 999999999 !important;
+  width: 260px !important;
+  padding: 20px !important;
+  border-radius: 4px !important;
+  color: #333 !important;
+  background-color: #fff !important;
+  box-shadow:  0 0 0 1px rgba(0,0,0, .08), 2px 4px 8px -2px rgba(0,0,0, .2) !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif !important;
+  font-size: 14px !important;
 }
 
-.baar-close-button {
-  position: absolute;
-  color: #000;
-  cursor: pointer;
-  padding: 10px;
-  top: 10px;
-  right: 10px;
-  font-size: 20px;
-  height: 30px;
-  background: none;
-  border: none;
-  outline: 0;
+button.baar-close-button {
+  position: absolute !important;
+  color: #000 !important;
+  cursor: pointer !important;
+  padding: 10px !important;
+  top: 10px !important;
+  right: 10px !important;
+  bottom: auto !important;
+  left: auto !important;
+  font-size: 20px !important;
+  height: 10px !important;
+  line-height: 10px !important;
+  background: none !important;
+  border: none !important;
+  outline: 0 !important;
 }
 
-.baar-close-button:active,
-.baar-close-button:visited,
-.baar-close-button:focus,
-.baar-close-button:hover {
-  color: #000;
-  text-decoration: none;
+button.baar-close-button:active,
+button.baar-close-button:visited,
+button.baar-close-button:focus,
+button.baar-close-button:hover {
+  color: #000 !important;
+  text-decoration: none !important;
 }
 
-.baar-title {
-  display: block;
-  margin-bottom: 4px;
-  font-size: 1.2em;
-  text-transform: uppercase;
-  letter-spacing: 0.03em;
-  font-weight: normal;
-  font-weight: normal;
+span.baar-title {
+  display: block !important;
+  margin-bottom: 4px !important;
+  font-size: 1.2em !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.03em !important;
+  font-weight: normal !important;
 }
 
-.baar-body {
-  display: block;
-  margin-bottom: 16px;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: bold;
+span.baar-body {
+  display: block !important;
+  line-height: inital !important;
+  margin-bottom: 16px !important;
+  font-family: inherit !important;
+  font-size: inherit !important;
+  font-weight: bold !important;
 }
 
-.baar-button {
-  display: block;
-  text-align: center;
-  text-decoration: none;
-  padding: 4px 20px;
-  border-radius: 4px;
-  line-height: 36px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-  'Helvetica Neue', Arial, sans-serif;
-  font-size: inherit;
-  color: #2d2d2d;
-  background-color: #F5B121;
-}
 
-.baar-button:hover {
-  color: #000;
-  background-color: #E4A31A;
+a.baar-button:active,
+a.baar-button:visited,
+a.baar-button:focus,
+a.baar-button {
+  display: block !important;
+  margin: 0 !important;
+  padding: 4px 20px !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  border-radius: 4px !important;
+  line-height: 36px !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif !important;
+  font-size: inherit !important;
+  color: #2d2d2d !important;
+  background-color: #F5B121 !important;
+}
+a.baar-button:hover {
+  color: #000 !important;
+  background-color: #E4A31A !important;
 }
