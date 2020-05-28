@@ -47,8 +47,6 @@ const insertPopup = function insertPopup(retailer: Retailer): void {
   document.body.appendChild(parent)
 }
 
-
-
 document.addEventListener('click', event => {
   const target = event.target as HTMLButtonElement
   const isPopupButton = target?.classList.contains('js-baar-close')

@@ -1,6 +1,6 @@
 {
   "name": "avios-reminder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Be notified on sites that could earn you Avios",
   "author": "Beau August",
   "main": "background.js",

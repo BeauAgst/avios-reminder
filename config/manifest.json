@@ -3,7 +3,7 @@
 
   "name": "Avios Reminder",
   "description": "Be notified on sites that could earn you Avios",
-  "version": "1.0",
+  "version": "1.0.1",
 
   "icons": {
     "18": "icons/18.png",
