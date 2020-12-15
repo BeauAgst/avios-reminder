@@ -16,3 +16,9 @@
 
 ---
 Icons made by [Good Ware](https://www.flaticon.com/free-icon/airplane_1085493) from [www.flaticon.com](https://www.flaticon.com/)
+
+
+## Changelog
+## [1.1.0] - 2020-12-15
+* Added popup to search through existing list of retailer deals
+* Fixed URL that BA broke (!!!)

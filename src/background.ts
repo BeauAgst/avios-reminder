@@ -14,3 +14,14 @@ chrome.tabs.onUpdated.addListener(async (tabId, changeInfo, tab) => {
   chrome.tabs.insertCSS(tabId, { file: 'styles.css' })
   chrome.tabs.sendMessage(tabId, retailer)
 })
+
+chrome.runtime.onMessage.addListener(({ type, url, ...rest }) => {
+  if (!type) return
+
+  switch(type) {
+    case 'url':
+      return chrome.tabs.create({ url })
+    default:
+      return console.info('message type not recognised', type, rest)
+  }
+})
